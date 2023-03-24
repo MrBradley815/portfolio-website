@@ -217,7 +217,11 @@ main {
 }
 
 .tech-icon.svelte:hover > svg {
-  color: var(--color-html);
+  color: var(--color-svelte);
+}
+
+.tech-icon.vue:hover > svg {
+  color: var(--color-vue);
 }
 
 /* ------------------------- */

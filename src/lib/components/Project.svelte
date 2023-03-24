@@ -32,6 +32,10 @@
         <li class="tech-icon js">
           <Icon icon="akar-icons:javascript-fill" />
         </li>
+      {:else if tech === 'Vue'}
+        <li class="tech-icon vue">
+          <Icon icon="carbon:logo-vue" />
+        </li>
       {/if}
     {/each}
   </ul>
